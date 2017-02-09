@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #000;
+  --color-primary-light: #9BCCCC;
+  --color-secondary: #9BCCCC;
+  --color-accent: #fff;
+  --color-neutral-beige: #e1e1e1;
+  --color-whatever: #fff;
+
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
