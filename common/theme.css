@@ -3,13 +3,41 @@
   --color-primary-light: #9bcccc;
   --color-secondary: #9bcccc;
   --color-accent: #fff;
-  --color-neutral-beige: #e1e1e1;
+  --color-neutral-beige: #e2e2e2;
   --color-whatever: #fff;
 
-  --font-primary: "Open Sans", sans-serif;
+  --font-primary: "Merriweather", serif;
   --font-secondary: "Open Sans", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #9bcccc;
+  font-weight: bold;
+}
+
+p {
+  color: #e2e2e2;
+}
+
+a {
+  text-decoration: none;
+  color: #9bcccc;
+}
+
+ul, ol, dl {
+  list-style-type: none;
+  text-decoration: none;
+  color: #e2e2e2;
+}
+
+li {
+  list-style-type: none;
+}
+
+blockquote, cite, q {
+  color: #9bcccc;
 }
