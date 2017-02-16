@@ -1,10 +1,8 @@
 :root {
   --color-primary: #000;
-  --color-primary-light: #9bcccc;
   --color-secondary: #9bcccc;
   --color-accent: #fff;
   --color-neutral-beige: #e2e2e2;
-  --color-whatever: #fff;
 
   --font-primary: "Merriweather", serif;
   --font-secondary: "Open Sans", sans-serif;
@@ -15,23 +13,27 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #9bcccc;
+  color: var(--color-secondary);
   font-weight: bold;
 }
 
 p {
-  color: #e2e2e2;
+  color: var(--color-neutral-beige);
 }
 
 a {
   text-decoration: none;
-  color: #9bcccc;
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: var(--color-neutral-beige);
 }
 
 ul, ol, dl {
   list-style-type: none;
   text-decoration: none;
-  color: #e2e2e2;
+  color: var(--color-neutral-beige);
 }
 
 li {
@@ -39,5 +41,9 @@ li {
 }
 
 blockquote, cite, q {
-  color: #9bcccc;
+  color: var(--color-secondary);
+}
+
+mark {
+  background-color: var(--color-secondary);
 }

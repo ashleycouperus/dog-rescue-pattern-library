@@ -7,7 +7,7 @@
 
 .btn:hover {
   color: var(--color-secondary);
-  background-color: var(--neutral);
+  background-color: #fff;
   border-color: var(--color-secondary);
 }
 
@@ -17,8 +17,8 @@
 }
 
 .btn-light {
-  background-color: var(--color-primary-light);
-  border-color: var(--color-primary-light);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
 
   color: #fff;
 }
