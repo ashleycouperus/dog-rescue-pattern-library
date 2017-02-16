@@ -2,12 +2,18 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
 
-  color: #fff;
+  color: var(--color-secondary);
 }
 
 .btn:hover {
+  color: var(--color-secondary);
+  background-color: var(--neutral);
+  border-color: var(--color-secondary);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-secondary);
   color: #fff;
-  background-color: #e2e2e2;
 }
 
 .btn-light {
@@ -19,7 +25,7 @@
 
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-primary);
+  border-color: var(--color-secondary);
 
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
