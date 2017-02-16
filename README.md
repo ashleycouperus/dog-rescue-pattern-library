@@ -10,4 +10,4 @@ colors:
   secondary: The secondary color should be used for subheaders
   neutral: The neutral colour should be used for body copy and captions
 ---
-LOYAL Rescue is a foster-based rescue that aims to find a loving home for every dog.
+Loyal Rescue is a foster-based rescue that aims to find a loving home for every dog.
