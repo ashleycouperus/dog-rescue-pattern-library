@@ -3,12 +3,12 @@
   border-radius: 8px;
 }
 
-ul {
-  list-style-type: none;
-  text-decoration: none;
+.card:hover {
+  background-color: #fff;
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
 }
 
-.card:hover {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
+ul {
+  list-style-type: none;
 }
