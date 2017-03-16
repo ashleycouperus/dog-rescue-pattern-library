@@ -8,8 +8,8 @@
 
 .error-message {
   display: none;
-  background-color: #fee;
-  color: var(--color-secondary);
+  background-color: #c22;
+  color: #fff;
 }
 
 .error-message-highlighted {
