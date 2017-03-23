@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--color-primary);
+}
+
+p {
+  list-style-type: none;
+  display: inline-block;
+}
+
+i {
+  padding: 1em;
+  text-align: left;
+  text-decoration: none;
+}
