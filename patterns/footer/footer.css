@@ -3,16 +3,30 @@ body {
 }
 
 footer {
-  background-color: blue;
+  background-color: var(--color-primary);
 }
 
 p {
   list-style-type: none;
   display: inline-block;
+  color: var(--color-secondary);
+}
+
+h4 {
+  color: var(--color-secondary);
 }
 
 i {
   padding: 1em;
   text-align: left;
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: #efefef;
 }

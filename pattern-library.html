@@ -578,29 +578,29 @@
 
 </section>
 
-        <section class="pattern" id="icons" style="">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+        <section class="pattern" id="icons" style="background-color:#9bcccc; color:rgba(0,0,0,.9);">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="background-color:rgba(0,0,0,.1); border-color:rgba(0,0,0,.1); color:rgba(0,0,0,.9);">
     <h2 class="pattern-name peta push-1-4">Icons</h2>
   </div>
 
-    <div class="pattern-desc milli island" style="">
+    <div class="pattern-desc milli island" style="background-color:rgba(0,0,0,.05); border-color:rgba(0,0,0,.05); color:rgba(0,0,0,.9);">
       <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability. <a href="https://learn-the-web.algonquindesign.ca/topics/modulifier-cheat-sheet/">See the documentation for all available classes.</a></p>
 </div>
     </div>
 
   
 
-    <div class="pattern-details" id="icons-icons" style="">
+    <div class="pattern-details" id="icons-icons" style="background-color:#9bcccc;">
 
       <div class="pattern-examples pad-t-1-2 pad-b">
         <div class="gutter pad-t-1-2 pad-b-1-2 push-1-2">
           <div class="resizeable-pattern relative" style="">
-            <iframe src="patterns/icons/1-icons.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+            <iframe src="patterns/icons/1-icons.html" scrolling="no" onload="resizeIframe(this)" data-inject-css=":root { --color-patternbot-interface:0; --color-patternbot-interface-opposite:255; --color-patternbot-background:#9bcccc; }"></iframe>
           </div>
         </div>
 
           <div class="gutter">
-            <div class="pattern-code milli island-1-2" style="">
+            <div class="pattern-code milli island-1-2" style="background-color:rgba(0,0,0,.05); border-color:rgba(0,0,0,.05); color:rgba(0,0,0,.9);">
               <code><pre>&lt;i class="icon i-192"&gt;
   &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
 &lt;/i>
@@ -910,19 +910,26 @@
             <div class="pattern-code milli island-1-2" style="">
               <code><pre>&lt;section class="footer"&gt;
   &lt;footer class="grid grid-middle masthead gutter-0">
-    &lt;div class="unit xs-1 s-1 m-2-3 l-3-4">
-      &lt;p class="island">Contact&lt;br>LOYAL Rescue&lt;br>Toronto, ON M1R 4Z5&lt;br>www.loyalrescue.com&lt;/p>
+    &lt;div class="unit xs-1 s-1 m-2-3 l-3-4 island-2">
+      &lt;h4>Contact&lt;/h4>
+      &lt;p>LOYAL Rescue&lt;br>Toronto, ON M1R 4Z5&lt;br>www.loyalrescue.com&lt;/p>
     &lt;/div>
-    &lt;div class="patternbot-icon-display-right center-contents island-1-2">
-      &lt;i class="icon i-64 block push-1-8">
-          &lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>
-        &lt;/i>
-      &lt;i class="icon i-64">
-          &lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>
-        &lt;/i>
-      &lt;i class="icon i-64">
-          &lt;svg>&lt;use xlink:href="../../images/icons.svg#mail"/>&lt;/svg>
-        &lt;/i>
+    &lt;div class="patternbot-icon-display-right island center-contents">
+      &lt;a class="facebook" href="#">
+        &lt;i class="icon i-64 block push-1-8">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>
+          &lt;/i>
+      &lt;/a>
+      &lt;a class="twitter" href="#">
+        &lt;i class="icon i-64">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>
+          &lt;/i>
+      &lt;/a>
+      &lt;a class="email" href="#">
+        &lt;i class="icon i-64">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#mail"/>&lt;/svg>
+          &lt;/i>
+      &lt;/a>
     &lt;/div>
   &lt;/footer>
 &lt;/section>
@@ -1050,7 +1057,7 @@
             <div class="pattern-code milli island-1-2" style="">
               <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
   &lt;div class="push-1-2">
-    &lt;label for="gender">GENDER&lt;/label>
+    &lt;label id="gender">GENDER&lt;/label>
     &lt;select name="gender">
       &lt;option value="indicate">Please Indicate&lt;/option>
       &lt;option value="female">Female&lt;/option>
@@ -1248,7 +1255,7 @@
             <div class="pattern-code milli island-1-2" style="">
               <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
   &lt;div class="push island-1-2">
-    &lt;label for="allergies">ALLERGIES (Explain Below)&lt;/label>
+    &lt;label id="allergies">ALLERGIES (Explain Below)&lt;/label>
     &lt;textarea name="message" rows="10" cols="30">
       &lt;/textarea>
   &lt;/div>
@@ -1484,7 +1491,7 @@
   &lt;div class="drop-down-menu">
     &lt;form class="max-length island" method="post" novalidate="">
       &lt;div class="push-1-2">
-        &lt;label for="gender">GENDER&lt;/label>
+        &lt;label id="gender">GENDER&lt;/label>
         &lt;select name="gender">
           &lt;option value="indicate">Please Indicate&lt;/option>
           &lt;option value="female">Female&lt;/option>
@@ -1651,37 +1658,37 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2" style="">
-              <code><pre>&lt;section id="icon-card" class="grid section"&gt;
-  &lt;div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 icon-card">
+              <code><pre>&lt;section id="icon-card" class="icon-card grid section"&gt;
+  &lt;div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 xl-1-3 icon-card">
     &lt;div class="border card island-1-4 gutter-1-4">
       &lt;i class="icon i-128 push-1-4">
           &lt;svg>&lt;use xlink:href="../../images/icons.svg#foster"/>&lt;/svg>&lt;/i>
       &lt;h2 class="push-1-4">Foster&lt;/h2>
       &lt;p class="push-0">Provide a temporary home for a special animal. By fostering, you are rescueing them from being caged or possible euthanization due to lack of space.&lt;/p>
       &lt;div class="pad-t-2 push">
-        &lt;a href="#application" class="btn btn-ghost">Foster Today!&lt;/a>
+        &lt;a href="#application" class="btn">Foster Today!&lt;/a>
       &lt;/div>
     &lt;/div>
   &lt;/div>
-  &lt;div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 icon-card">
+  &lt;div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 xl-1-3 icon-card">
     &lt;div class="border card island-1-4 gutter-1-4">
       &lt;i class="icon i-128 push-1-4">
           &lt;svg>&lt;use xlink:href="../../images/icons.svg#adopt"/>&lt;/svg>&lt;/i>
       &lt;h2 class="push-1-4">Adopt&lt;/h2>
       &lt;p class="push-0">Adopt an animal today! These animals need you to provide them with a loving home. Somewhere they can feel safe and become apart of your family.&lt;/p>
       &lt;div class="pad-t-2 push">
-        &lt;a href="#application" class="btn btn-ghost">Adopt!&lt;/a>
+        &lt;a href="#application" class="btn">Adopt!&lt;/a>
       &lt;/div>
     &lt;/div>
   &lt;/div>
-  &lt;div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 xl-1-4 icon-card">
-    &lt;div class="card island-1-4 gutter-1-4">
+  &lt;div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 xl-1-3icon-card">
+    &lt;div class="donate card island-1-4 gutter-1-4">
       &lt;i class="icon i-128 push-1-4">
           &lt;svg>&lt;use xlink:href="../../images/icons.svg#donate"/>&lt;/svg>&lt;/i>
       &lt;h2 class="push-1-4">Donate&lt;/h2>
       &lt;p class="push-0">By donating to our organization you are helping save the lives of abandoned animals. The money goes towards finding animals a safe home.&lt;/p>
       &lt;div class="pad-t-2 push">
-        &lt;a href="#application" class="btn btn-ghost">Donate!&lt;/a>
+        &lt;a href="#application" class="btn">Donate!&lt;/a>
       &lt;/div>
     &lt;/div>
   &lt;/div>

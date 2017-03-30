@@ -1,3 +1,28 @@
 .border {
-  border-right: 1px solid #fff;
+  padding-left: 4em;
+  padding-right: 3em;
+  margin: 2, 3, 2, 3;
+  border-right: 2px solid #efefef;
+}
+
+.donate {
+  padding-left: 4em;
+  padding-right: 3em;
+  margin: 2, 3, 2, 3;
+}
+
+.icon {
+  color: var(--color-secondary);
+}
+
+.icon-card {
+  background-color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-secondary);
+}
+
+p {
+  color: var(--color-secondary);
 }

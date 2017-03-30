@@ -12,5 +12,8 @@ colors:
 brand:
   logos:
     backgroundColor: "#9bcccc"
+icons:
+  icons:
+    backgroundColor: "#9bcccc"
 ---
 Loyal Rescue is a foster-based rescue that aims to find a loving home for every dog.
