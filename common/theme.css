@@ -38,6 +38,7 @@ ul, ol, dl {
 
 li {
   list-style-type: none;
+  color: var(--color-secondary)
 }
 
 blockquote, cite, q {

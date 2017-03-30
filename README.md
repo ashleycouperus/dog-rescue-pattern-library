@@ -9,5 +9,8 @@ colors:
   primary: The primary color should be used for headers and highlighted text
   secondary: The secondary color should be used for subheaders
   neutral: The neutral colour should be used for body copy and captions
+brand:
+  logos:
+    backgroundColor: "#9bcccc"
 ---
 Loyal Rescue is a foster-based rescue that aims to find a loving home for every dog.

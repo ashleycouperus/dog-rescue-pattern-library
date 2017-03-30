@@ -3,8 +3,7 @@ body {
 }
 
 footer {
-  text-align: center;
-  background-color: var(--color-primary);
+  background-color: blue;
 }
 
 p {

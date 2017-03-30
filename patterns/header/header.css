@@ -4,7 +4,7 @@ body {
 
 header {
   text-align: center;
-  background-color: #e2e2e2;
+  background-color: var(--color-primary);
 }
 
 .masthead {
@@ -25,9 +25,10 @@ a {
   padding: 1em;
   text-align: left;
   text-decoration: none;
+  color: var(--color-secondary);
 }
 
 a:hover {
-  color: #fff;
+  color: var(--color-primary);
   background-color: #000;
 }
