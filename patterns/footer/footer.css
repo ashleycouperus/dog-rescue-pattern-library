@@ -2,27 +2,22 @@ footer {
   background-color: var(--color-primary);
 }
 
-p {
+h4, p {
   list-style-type: none;
-  display: inline-block;
-  color: var(--color-secondary);
-}
-
-h4 {
+  text-align: left;
   color: var(--color-secondary);
 }
 
 i {
-  padding: 1em;
-  text-align: left;
-  text-decoration: none;
+  text-align: right;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
 
 a:hover {
   color: #efefef;
+  background-color: var(--color-primary);
 }

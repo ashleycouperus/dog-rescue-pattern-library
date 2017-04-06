@@ -17,11 +17,11 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
-h4, h5, h6 {
+h4, h6 {
   color: var(--color-secondary);
 }
 
-p {
+p, h5 {
   color: var(--color-neutral-beige);
   font-family: var(--font-secondary);
 }

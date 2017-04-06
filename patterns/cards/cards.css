@@ -30,3 +30,18 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.icon-card {
+  background-color: var(--color-primary);
+  text-align: center;
+}
+
+body {
+  background-color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 38em) {
+  .icon-card {
+    text-align: left;
+  }
+}

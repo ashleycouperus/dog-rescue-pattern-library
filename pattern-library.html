@@ -670,7 +670,7 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2" style="">
-              <code><pre>&lt;section id="banner"&gt;
+              <code><pre>&lt;section id="banner" class="crop relative"&gt;
   &lt;div class="grid">
     &lt;div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
       &lt;div class="banner">
@@ -678,9 +678,9 @@
       &lt;/div>
       &lt;div class="info island push">
         &lt;h2>Who Are We?&lt;/h2>
-        &lt;p class="micro">Loyal Rescue is a foster-based rescue focused on finding a loving home for all animals.&lt;/p>
-        &lt;a href="#adopt" class="btn btn-ghost">Learn More!&lt;/a>
-      &lt;/div>
+        &lt;h6 class="micro">Loyal Rescue is a foster-based rescue focused on finding a loving home for all animals.&lt;p>&lt;/p>
+          &lt;a href="#adopt" class="btn btn-ghost">Learn More!&lt;/a>
+        &lt;/h6>&lt;/div>
     &lt;/div>
   &lt;/div>
 &lt;/section>
@@ -865,17 +865,35 @@
 
           <div class="gutter">
             <div class="pattern-code milli island-1-2" style="">
-              <code><pre>&lt;section id="icon-card"&gt;
-  &lt;div class="icon-card">
-    &lt;div class="card island-1-2 text-center">
+              <code><pre>&lt;section id="icon-card" class="grid grid-middle"&gt;
+  &lt;div class="icon-card unit xs-1-4 s-1-4 m-1-4 l-1-4">
+    &lt;div class="card island-1-2">
       &lt;i class="icon i-128 push-1-4">
           &lt;svg>&lt;use xlink:href="../../images/icons.svg#foster"/>&lt;/svg>&lt;/i>
-      &lt;h2 class="push-1-4">Foster&lt;/h2>
-      &lt;p class="push-0">Provide a temporary loving home for a special animal. By fostering an animale, you will be saving their life from being stuck in a cold cage or possible euthanization due to lack of space.&lt;/p>
-      &lt;div class="pad-t-2 push">
-        &lt;a href="#application" class="btn btn-ghost">Foster Today!&lt;/a>
-      &lt;/div>
-    &lt;/div>
+      &lt;h4 class="push-1-4">Foster
+        &lt;p class="milli push-0">Provide a temporary loving home for a special animal. By fostering an animal, you will be saving their life from being stuck in a cold cage or possible euthanization due to lack of space.&lt;/p>
+        &lt;div class="hover-info island-1-2">
+          &lt;a href="#application" class="btn btn-ghost">Foster Today!&lt;/a>
+        &lt;/div>
+      &lt;/h4>&lt;/div>
+    &lt;div class="card island-1-2">
+      &lt;i class="icon i-128 push-1-4">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#adopt"/>&lt;/svg>&lt;/i>
+      &lt;h4 class="push-1-4">Adopt
+        &lt;p class="milli push-0">Adopt an animal today! These animals need you to provide them with a loving home. Somewhere they can feel safe and become apart of your family.&lt;/p>
+        &lt;div class="hover-info island-1-2">
+          &lt;a href="#application" class="btn btn-ghost">Adopt Today!&lt;/a>
+        &lt;/div>
+      &lt;/h4>&lt;/div>
+    &lt;div class="card island-1-2">
+      &lt;i class="icon i-128 push-1-4">
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#donate"/>&lt;/svg>&lt;/i>
+      &lt;h4 class="push-1-4">Donate
+        &lt;p class="milli push-0">By donating to our organization you are helping save the lives of abandoned animals. The money goes towards finding animals a safe home.&lt;/p>
+        &lt;div class="hover-info island-1-2">
+          &lt;a href="#application" class="btn btn-ghost">Donate Today!&lt;/a>
+        &lt;/div>
+      &lt;/h4>&lt;/div>
   &lt;/div>
 &lt;/section>
 </pre></code>
@@ -925,23 +943,23 @@
           <div class="gutter">
             <div class="pattern-code milli island-1-2" style="">
               <code><pre>&lt;section class="footer"&gt;
-  &lt;footer class="grid grid-middle masthead gutter-0">
+  &lt;footer class="grid masthead gutter-0">
     &lt;div class="unit xs-1 s-1 m-2-3 l-3-4 island-2">
       &lt;h4>Contact&lt;/h4>
-      &lt;p>LOYAL Rescue&lt;br>Toronto, ON M1R 4Z5&lt;br>www.loyalrescue.com&lt;/p>
+      &lt;p class="micro">LOYAL Rescue&lt;br>Toronto, ON M1R 4Z5&lt;br>www.loyalrescue.com&lt;/p>
     &lt;/div>
     &lt;div class="patternbot-icon-display-right island center-contents">
-      &lt;a class="facebook" href="#">
+      &lt;a class="unit xs-1-4 s-1-4 m-1-4 l-1-4 facebook" href="#">
         &lt;i class="icon i-64 block push-1-8">
             &lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>
           &lt;/i>
       &lt;/a>
-      &lt;a class="twitter" href="#">
+      &lt;a class="unit xs-1-4 s-1-4 m-1-4 l-1-4 twitter" href="#">
         &lt;i class="icon i-64">
             &lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>
           &lt;/i>
       &lt;/a>
-      &lt;a class="email" href="#">
+      &lt;a class="unit xs-1-4 s-1-4 m-1-4 l-1-4 email" href="#">
         &lt;i class="icon i-64">
             &lt;svg>&lt;use xlink:href="../../images/icons.svg#mail"/>&lt;/svg>
           &lt;/i>
@@ -1377,7 +1395,7 @@
           <div class="gutter">
             <div class="pattern-code milli island-1-2" style="">
               <code><pre>&lt;header class="top-bar grid grid-middle masthead gutter-0"&gt;
-  &lt;div class="unit pad-b-1-2 xs-1 s-1 m-1-3 l-1-4 xl-1-2">
+  &lt;div class="unit xs-1 s-1 m-1-3 l-1-4 xl-1-2">
     &lt;i class="icon i-256">
         &lt;img src="../../images/logo-64.svg" alt="logo-64">
       &lt;/i>
@@ -1689,7 +1707,8 @@
   &lt;div class="unit xs-1-3 s-1-3 m-1-3 l-1-3 xl-1-3 icon-card">
     &lt;div class="border card island-1-4 gutter-1-4">
       &lt;i class="icon i-128 push-1-4">
-          &lt;svg>&lt;use xlink:href="../../images/icons.svg#adopt"/>&lt;/svg>&lt;/i>
+          &lt;svg>&lt;use xlink:href="../../images/icons.svg#adopt"/>&lt;/svg>
+        &lt;/i>
       &lt;h3 class="push-1-4">Adopt
         &lt;p class="push-0">Adopt an animal today! These animals need you to provide them with a loving home. Somewhere they can feel safe and become apart of your family.&lt;/p>
         &lt;div class="pad-t-2 push">
