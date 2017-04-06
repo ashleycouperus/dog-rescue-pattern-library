@@ -4,21 +4,26 @@
   --color-accent: #fff;
   --color-neutral-beige: #e2e2e2;
 
-  --font-primary: "Merriweather", serif;
-  --font-secondary: "Open Sans", sans-serif;
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Merriweather", serif;
 }
 
 html {
   font-family: var(--font-primary);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   color: var(--color-primary);
   font-weight: bold;
 }
 
+h4, h5, h6 {
+  color: var(--color-secondary);
+}
+
 p {
   color: var(--color-neutral-beige);
+  font-family: var(--font-secondary);
 }
 
 a {
