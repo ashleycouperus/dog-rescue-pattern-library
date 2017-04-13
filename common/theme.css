@@ -41,11 +41,6 @@ ul, ol, dl {
   color: var(--color-neutral-beige);
 }
 
-li {
-  list-style-type: none;
-  color: var(--color-secondary);
-}
-
 blockquote, cite, q {
   color: var(--color-primary);
 }
