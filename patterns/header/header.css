@@ -27,11 +27,3 @@ a:hover {
   color: var(--color-primary);
   background-color: #000;
 }
-
-icon {
-
-}
-
-@media only screen and (min-width: 38em) {
-
-}
